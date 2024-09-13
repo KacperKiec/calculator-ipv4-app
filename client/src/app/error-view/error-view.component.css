@@ -1,0 +1,14 @@
+.message-container{
+  color: #930000;
+  font-size: 20px;
+}
+
+.visible{
+  visibility: visible;
+  display: block;
+}
+
+.not-visible{
+  visibility: hidden;
+  display: none;
+}

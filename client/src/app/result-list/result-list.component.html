@@ -1,0 +1,7 @@
+<div class="result-container">
+  <ul class="result-list">
+    <li *ngFor="let subnet of subnets" class="result-element">
+      <label [textContent]="subnet.address + '/' + subnet.mask"></label>
+    </li>
+  </ul>
+</div>

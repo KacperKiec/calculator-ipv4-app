@@ -1,0 +1,17 @@
+.param-container {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hostList {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

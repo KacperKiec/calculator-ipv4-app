@@ -1,0 +1,11 @@
+<div class="dropdown">
+  <button class="link" (click)="toggleDropdown()" >Wyznacz</button>
+  <div class="dropdown-menu" [class.show]="dropdownStatus">
+    <ul class="modes-list">
+      <li *ngFor="let mode of modes" (click)="selectFunction(mode)">
+        <label>{{mode}}</label>
+      </li>
+    </ul>
+  </div>
+</div>
+<app-param-controller (confirmAction)="executeAction($event)"></app-param-controller>

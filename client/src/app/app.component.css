@@ -1,0 +1,53 @@
+.main-container{
+  border: 1px black solid;
+  width: 40%;
+  height: 80%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto auto;
+  padding: 20px;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.input-data{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+}
+
+.input-element{
+  padding: 0 10px;
+  height: 30px;
+  width: 50%;
+}
+
+.input-element select,
+.input-element input {
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
