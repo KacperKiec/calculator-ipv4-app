@@ -1,7 +1,7 @@
 **calculator-ipv4-app**
 
 
-calculator-ipv4-app is a private project created for educational purposes and as part of a portfolio. It is the first project where the Angular framework was utilized. The application is designed for calculations related to IPv4 addressing.
+calculator-ipv4-app is a private project created for educational purposes and as part of a portfolio. It is the first project where I used Angular. The application is designed for calculations related to IPv4 addressing.
 
 
 **Table of Contents**
@@ -64,7 +64,7 @@ Manual Run:
 
 If you prefer running without Docker:
 
-Backend:
+- Backend:
 
 cd server
 
@@ -73,7 +73,7 @@ cd server
 The backend will be available at http://localhost:8080.
 
 
-Frontend:
+- Frontend:
 
 cd client
 
@@ -87,7 +87,9 @@ The frontend will be available at http://localhost:4200.
 **Project Structure**
 
 client/ – Frontend source code (Angular).
+
 server/ – Backend source code (Spring Boot).
+
 docker-compose.yml – Docker Compose configuration file.
 
 
